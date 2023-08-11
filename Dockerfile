@@ -25,7 +25,7 @@ RUN yum -y install \
 wget \
 && \
 cd / && \ 
-wget https://download-ib01.fedoraproject.org/pub/epel/7/SRPMS/Packages/x/xxhash-0.8.1-1.el7.src.rpm && \
+wget https://dl.fedoraproject.org/pub/epel/7/SRPMS/Packages/x/xxhash-0.8.2-1.el7.src.rpm && \
 rpm -ivh xxhash-*.el7.src.rpm && \
 cd ~/rpmbuild/SPECS && \
 yum -y install \
